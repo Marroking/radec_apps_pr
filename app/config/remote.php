@@ -29,10 +29,10 @@ return array(
 	'connections' => array(
 
 		'production' => array(
-			'host'      => '',
-			'username'  => '',
-			'password'  => '',
-			'key'       => '',
+			'host'      => '198.168.169.151',
+			'username'  => 'radec_user',
+			'password'  => 'Mkn!',
+			'key'       => 'G6oYykW6Kx9prZIqPcHTxApemya9hK',
 			'keyphrase' => '',
 			'root'      => '/var/www',
 		),

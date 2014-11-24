@@ -31,11 +31,11 @@ $env = $app->detectEnvironment(function()
 
 
 
-// $env = $app->detectEnvironment(array(
+ $env = $app->detectEnvironment(array(
 
-// 	'local' => array('your-machine-name'),
+ 	'dev' => array('182.168.169.151', 'radec_apps.dev'),
 
-// ));
+ ));
 
 /*
 |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ $env = $app->detectEnvironment(function()
 | Here we are binding the paths configured in paths.php to the app. You
 | should not be changing these here. If you need to change these you
 | may do so within the paths.php file and they will be bound here.
-|
+
 */
 
 $app->bindInstallPaths(require __DIR__.'/paths.php');
